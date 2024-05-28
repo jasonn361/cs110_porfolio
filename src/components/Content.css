@@ -1,0 +1,18 @@
+.content-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw; /* Ensures the container uses the full viewport width */
+  align-items: flex-start; /* Aligns items to the top */
+  justify-content: center; /* Centers the content horizontally */
+  position: relative; /* Needed for absolute positioning within */
+}
+
+/* @media (max-width: 1700px) { */
+/*   .content-container { */
+/*     flex-direction: column; */
+/*   } */
+/**/
+/*   .left-content-container { */
+/*     position: static */
+/*   } */
+/* } */
