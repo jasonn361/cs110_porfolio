@@ -9,12 +9,10 @@ function Extracurriculars() {
       <TimeCard 
         time_range="2023"
         header="Cutie Hack"
-        paragraph="salfjaklsj"
       />
       <TimeCard 
         time_range="2023"
         header="Rose Hack"
-        paragraph="salfjaklsj"
       />
     </div>
   );

@@ -1,18 +1,29 @@
 .content-container {
   display: flex;
   height: 100vh;
-  width: 100vw; /* Ensures the container uses the full viewport width */
-  align-items: flex-start; /* Aligns items to the top */
-  justify-content: center; /* Centers the content horizontally */
-  position: relative; /* Needed for absolute positioning within */
+  width: 100vw;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
 }
 
-/* @media (max-width: 1700px) { */
-/*   .content-container { */
-/*     flex-direction: column; */
-/*   } */
-/**/
-/*   .left-content-container { */
-/*     position: static */
-/*   } */
-/* } */
+@media (max-width: 1200px) {
+  .content-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .left-content-container {
+    position: static;
+    padding-bottom: 5rem;
+    padding-left: 20px;
+  }
+
+  .right-content-container {
+    margin-top: 20px;
+    margin-left: 0;
+    width: 30rem;
+    overflow: visible;
+  }
+}

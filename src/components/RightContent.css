@@ -6,7 +6,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   row-gap: 50px;
-  margin-left: calc(100vw - 55rem);
-  width: calc(100vw - 30rem);
+  margin-left: 30rem;
+  width: fit-content;
   overflow-y: auto;
 }

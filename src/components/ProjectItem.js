@@ -1,9 +1,9 @@
-import "./ProjectItem.css";
 import "./TimeCard.css";
+import "./ProjectItem.css";
 
 function ProjectItem(props) {
   return (
-    <a href={props.href} className="project-item-container">
+    <a href={props.href} className="timecard-container">
       <img src={props.src} className="project-image" alt={props.alt}/>
       <div className="timecard-header-container">
         <h3 className="timecard-header">{props.header}</h3>

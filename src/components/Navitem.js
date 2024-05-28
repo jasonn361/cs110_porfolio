@@ -3,13 +3,13 @@ import React from 'react';
 
 function Navitem(props) {
   const handleClick = (event, id) => {
-    event.preventDefault(); // Prevent default anchor behavior
+    event.preventDefault();
     const element = document.getElementById(id);
     if (element) {
-      const offsetTop = element.offsetTop - 125; // Adjust 100 pixels for fixed header
+      const offsetTop = element.offsetTop - 125;
       window.scrollTo({
         top: offsetTop,
-        behavior: "smooth" // Smooth scroll
+        behavior: "smooth"
       });
     }
   };

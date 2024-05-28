@@ -1,3 +1,36 @@
+.about-me-container {
+  border-radius: 20px;
+  background: rgba(0,0,0,0);
+  border: 2px solid rgba(255, 255, 255, 0);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition-property: border-color, background;
+  transition-duration: 0.5s, 0.5s;
+  transition-timing-function: ease-in-out, ease-in-out;
+}
+
+.about-me-container:hover {
+  border-color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .about-me-container {
+    -webkit-backdrop-filter: blur(0px);
+    backdrop-filter: blur(0px);
+    transition-property: backdrop-filter, -webkit-backdrop-filter, border-color, background;
+    transition-duration: 0.5s, 0.5s, 0.5s, 0.5s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+  }
+
+  .about-me-container:hover {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);  
+    border-color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}
+
 .title, .p-body {
   margin: 0;
   margin-bottom: 20px;

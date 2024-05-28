@@ -5,10 +5,9 @@ a {
 
 .social-icon {
   font-size: 3em;
-  opacity: 50%;
-  transition-property: 0.3s opacity ease-in-out;
+  opacity: 25%;
 }
 
 .social-icon:hover{
-  opacity: 1;
+  opacity: 100%;
 }
