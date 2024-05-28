@@ -1,9 +1,14 @@
-.icon {
-  width: 30px;
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.social-icon {
+  font-size: 3em;
   opacity: 50%;
   transition-property: 0.3s opacity ease-in-out;
 }
 
-.icon:hover{
+.social-icon:hover{
   opacity: 1;
 }

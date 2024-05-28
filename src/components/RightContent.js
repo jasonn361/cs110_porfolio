@@ -2,6 +2,8 @@ import AboutMe from "./AboutMe";
 import Education from "./Education";
 import Skills from "./Skills";
 import Experience from "./Experience";
+import Projects from "./Projects";
+import Extracurriculars from "./Extracurriculars";
 import "./RightContent.css";
 
 function RightContent() {
@@ -11,6 +13,8 @@ function RightContent() {
       <Education />
       <Skills />
       <Experience />
+      <Projects />
+      <Extracurriculars />
     </div>
   );
 }

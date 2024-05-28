@@ -1,13 +1,16 @@
 import "./ProjectItem.css";
+import "./TimeCard.css";
 
-function ProjectItem() {
+function ProjectItem(props) {
   return (
-  <div className="timecard-container">
-    <div className="time-range">{props.time_range}</div>
-    <div className="timecard-header-container">
-      <h3 className="timecard-header">{props.header}</h3>
-      <p className="timecard-p">{props.paragraph}</p>
-    </div>
-  </div>
+    <a href={props.href} className="project-item-container">
+      <img src={props.src} className="project-image" alt={props.alt}/>
+      <div className="timecard-header-container">
+        <h3 className="timecard-header">{props.header}</h3>
+        <p className="timecard-p">{props.paragraph}</p>
+      </div>
+    </a>
   );
 }
+
+export default ProjectItem;
