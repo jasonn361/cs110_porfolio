@@ -1,0 +1,23 @@
+.name, .occupation, .caption {
+  margin: 0;
+  margin-bottom: 20px;
+  text-align: left;
+  max-width: 300px;
+}
+
+.name { 
+  font-size: 3rem;
+  color: white;
+}
+
+.occupation {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: var(--off-white-text-color);
+}
+
+.caption {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 1.2rem;
+}
